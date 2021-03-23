@@ -6,5 +6,5 @@ def solution(a,b):
   
   if len(c) > len(d):
     return list(c-d)[0]
-   else:
+  else:
     return list(d-c)[0]
