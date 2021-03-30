@@ -11,6 +11,7 @@ For example, when N = 3, you have only 1 choice of how to build the staircase, w
 (# indicates a brick)
 
 \#
+
 \# \#
 
 2 1
@@ -18,7 +19,9 @@ For example, when N = 3, you have only 1 choice of how to build the staircase, w
 When N = 4, you still only have 1 staircase choice:
 
 \#
+
 \#
+
 \# \#
 
 3 1
@@ -26,14 +29,19 @@ When N = 4, you still only have 1 staircase choice:
 But when N = 5, there are two ways you can build a staircase from the given bricks. The two staircases can have heights (4, 1) or (3, 2), as shown below:
 
 \#
+
 \#
+
 \#
+
 \# \#
 
 4 1 
 
 \#
+
 \# \#
+
 \# \#
 
 3 2
