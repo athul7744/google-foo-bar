@@ -11,6 +11,7 @@ def infinity(a,b):
     
     #For finding if a number is a power of 2, we can use the properties of binary representations. A power of 2 will have only one bit set as 1.
     #So doing binary AND operation on the number and (number - 1) will be all 0s.
+    #So if result is all 0s, then it is a power of 2 and will not loop to infinity
     return bool(rem & (rem-1))
     
 def removeFromGraph(bGraph,ind):
