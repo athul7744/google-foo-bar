@@ -2,7 +2,8 @@ from math import gcd
 
 def infinity(a,b):
       
-    #From several combination of numbers we can observe that if the sum of the bananas equal powers of 2 they will never loop till infinity, they will always be divided equally
+    #From several combination of numbers we can observe that if the sum of the bananas equal powers of 2 they will never loop till infinity,
+    #They will always be divided equally.
     #This leaves us with numbers other than the powers of 2. Odd numbers can never be divided into 2 parts, so all odd sums will loop to infinity
     #For even numbers we can observe that if the quotient returned when the sum is divided by the greatest common divisor of both numbers is a power of 2,
     #They will not loop to infinity
@@ -48,7 +49,8 @@ def solution(banana_list):
     #If number of possible pairings are 0, the trainer is marked as processed and removed from graph. Unpaired count is increased by 1
     #Else loop through the possible pairings to find the trainer with second least possible pairings available.
     #Then these 2 trainers are paired. They are marked as processed and removed from graph.
-    #Continue likewise pairing the trainer with least possible pairings with the next trainer with least possible pairings, from the list of first trainer's possible pairings.
+    #Continue likewise pairing the trainer with least possible pairings with the next trainer with least possible pairings,
+    #From the list of first trainer's possible pairings.
     #Until no trainers are left to process
     while toProcess > 0:
         
