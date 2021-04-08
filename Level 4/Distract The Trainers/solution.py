@@ -48,7 +48,7 @@ def solution(banana_list):
     #It can be solved with several algorithms like Blossoms algorithm etc. Here a simple method to match the trainers is followed. It is as follows : 
     #First the trainer with minimum number of possible pairings is found
     #If number of possible pairings are 0, the trainer is marked as processed and removed from graph. Unpaired count is increased by 1
-    #Else loop through the possible pairings to find the trainer with second least possible pairings available.
+    #Else loop through the possible pairings to find the trainer with least possible pairings in them.
     #Then these 2 trainers are paired. They are marked as processed and removed from graph.
     #Continue likewise pairing the trainer with least possible pairings with the next trainer with least possible pairings,
     #From the list of first trainer's possible pairings.
@@ -75,12 +75,11 @@ def solution(banana_list):
         else:    
             #Setting index of second trainer as 0 for ease of comparison
             sec_ind = bGraph[min_ind][0]
+            
             #Looping through the possible pairings of trainer with least possible pairings
-            for i in range(len(bGraph[min_ind])):
-                
+            for i in range(len(bGraph[min_ind])):    
                 #Checking if trainer has not been processed already
                 if i!=0 and bGraph[min_ind][i] != -1:
-                    
                     #If number of possible pairings of current trainer is lesser than sec_ind trainer, setting sec_ind as current trainer
                     if len(bGraph[sec_ind]) > len(bGraph[bGraph[min_ind][i]]):
                         sec_ind = bGraph[min_ind][i]            
