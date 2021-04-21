@@ -1,3 +1,6 @@
+The Grandest Staircase Of Them All
+====================
+
 With the LAMBCHOP doomsday device finished, Commander Lambda is preparing to debut on the galactic stage -- but in order to make a grand entrance, Lambda needs a 
 grand staircase! As the Commander's personal assistant, you've been tasked with figuring out how to build the best staircase EVER. 
 
@@ -10,41 +13,43 @@ steps must contain at least one brick. A step's height is classified as the tota
 For example, when N = 3, you have only 1 choice of how to build the staircase, with the first step having a height of 2 and the second step having a height of 1: 
 (# indicates a brick)
 
-\#
+ 	#
 
-\# \#
+ 	# #
 
-2 1
+ 	2 1
 
 When N = 4, you still only have 1 staircase choice:
 
-\#
+	#
 
-\#
+	#
 
-\# \#
+	# #
 
-3 1
+	3 1
  
 But when N = 5, there are two ways you can build a staircase from the given bricks. The two staircases can have heights (4, 1) or (3, 2), as shown below:
 
-\#
+	#
 
-\#
+	#
 
-\#
+	#
 
-\# \#
+	# #
 
-4 1 
+	4 1 
 
-\#
+---
+	
+	#
 
-\# \#
+	#  #
 
-\# \#
+	# #
 
-3 2
+	3 2
 
 Write a function called solution(n) that takes a positive integer n and returns the number of different staircases that can be built from exactly n bricks. n will 
 always be at least 3 (so you can have a staircase at all), but no more than 200, because Commander Lambda's not made of money!
@@ -57,13 +62,14 @@ Note that it may also be run against hidden test cases not shown here.
 
 -- Python cases --
 
-Input:
-Solution.solution(3)
-Output:
-    1
+Input:	Solution.solution(3)
 
-
-Input:
-Solution.solution(200)
 Output:
-    487067745
+
+   	1
+
+Input:	Solution.solution(200)
+
+Output:
+
+   	487067745
