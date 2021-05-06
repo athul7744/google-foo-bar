@@ -14,3 +14,5 @@ Solutions to the Google Foo Bar Challlenge
 ## Level 4
    1. #### [Distract The Trainers](https://github.com/athul7744/google-foobar/blob/main/Level%204/Distract%20The%20Trainers)
    2. #### [Running with Bunnies](https://github.com/athul7744/google-foobar/blob/main/Level%204/Running%20with%20Bunnies)
+## Level 5
+   1. #### [Dodge The Lasers](https://github.com/athul7744/google-foobar/tree/main/Level%205/Dodge%20The%20Laser) 
